@@ -6,7 +6,6 @@ import 'package:googleapis/servicecontrol/v1.dart' as servicecontrol;
 class NotificationsService {
   // ! get access token
 
-
   static Future<String> getAccessToken() async {
     final Map<String, String> serviceAccountJson = {
       // ! get this json from firebase project settings...
